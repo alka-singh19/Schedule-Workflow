@@ -6,7 +6,7 @@ on:
 
 jobs:
   run-script:
-    runs-on: ununtu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Print Message
