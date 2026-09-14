@@ -1,0 +1,12 @@
+name: Schedule Job
+
+on:
+  Schedule:
+    - cron: "0 0 * * *"
+jobs:
+  run-script:
+    runs-on: ununtu-latest
+
+    steps:
+      - name: Print Message
+        run: echo "Schedule workflow done"
